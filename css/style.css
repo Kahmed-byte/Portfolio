@@ -1,0 +1,77 @@
+#header {
+  display: flex;
+}
+div .mt-5{
+
+}
+#bio {
+  padding: 50px 50px 0px 50px;
+  text-align: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+}
+.row > * {
+  justify-content: center;
+  width: auto;
+  height: fit-content;
+}
+
+#mainPic {
+flex: inherit;
+  border-radius: 80px;
+  margin: 0 20px 20px 20px;
+  width: 145px;
+  height: 145px;
+}
+#about {
+    margin-left: 27px;
+}
+#footer {
+    justify-content: center;
+    width: -webkit-fill-available;
+    padding: 0 30px;
+}
+.social {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+.social a {
+  margin-left: auto;
+  border-radius: 50%;
+}
+.fa {
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.mt-5 {
+    padding-left: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+#faLi {
+    margin: 20px;
+}
+
+@media screen and (max-width: 957px) and (min-width: 768px) {
+
+#about {
+  margin-left: 18%;
+}
+  
+}
