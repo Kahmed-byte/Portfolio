@@ -115,7 +115,6 @@ buttonSend.addEventListener("click", () => {
     }
     else {
         alert("Thank you for your e-mail :)");
-        inputText.value === "llllll";
     }
 })
 
