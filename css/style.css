@@ -100,6 +100,10 @@ div .social {
   padding: 30px 20px;
 }
 
+.modalTest {
+  padding-top: 40px;
+}
+
 .hidden {
   display: none;
 }
@@ -147,6 +151,9 @@ div .social {
 }
 .dispTitle {
   width: max-content;
+}
+.dispTitle a {
+  font-size: x-large;
 }
 .dispInfo {
   height: max-content;

@@ -61,7 +61,7 @@ function modalDisplay(index){
 modalCont.classList.remove("hidden");
 
 modalTest.innerHTML= `<div class="col-md col-lg-4 modalMarg">
-<h1 class="dispTitle"><a href="${projectsList[index].href}">${projectsList[index].titel}</a></h1>
+<h1 class="dispTitle"><a href="${projectsList[index].href}">--->Visit website here<---</a></h1>
 <div class="card" style="width: 18rem;">
 <img class="img-thumbnail rounded" src="${projectsList[index].img}" alt=""/>
 <p class="dispInfo">${projectsList[index].text}</p>
